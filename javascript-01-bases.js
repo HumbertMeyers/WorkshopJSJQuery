@@ -36,6 +36,8 @@ Math.max(mesures); // à adapter
 
 // -------------------------------------------------------
 
+//CONSTRUCTION DE STRING
+
 // utiliser la constructio avec `  ` pour réécrire la string chaine
 
 const nom = "Victor"
@@ -50,16 +52,10 @@ let chaine = "Bienvue " + nom + "!\n" +
 
 // -------------------------------------------------------
 
-let mesures = [1, 4, 3];
-
-let volume = (longueur, largeur, profondeur) => longueur * largeur * profondeur;
-
-volume(mesures); // à adapter
-
-Math.max(mesures); // à adapter
-
 
 // -------------------------------------------------------
+
+// OBJETS 
 
 // Exercice 1 : 
 // Ajouter une méthode surface à cet objet qui renvoie la surface
@@ -114,6 +110,8 @@ let carre1 = new Carre(3);
 
 
 // -------------------------------------------------------
+
+// BIND
 
 personne = {
 	prenom: "tata",
